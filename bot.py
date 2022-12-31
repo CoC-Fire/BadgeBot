@@ -38,7 +38,7 @@ print("Anyway, please remember to subscribe to my YouTube channel at https://you
 print("Have fun with your badge!")
 
 # Setting the URL to add the command to
-url = "https://discord.com/api/v10/applications/{app_id}/commands"
+url = f"https://discord.com/api/v10/applications/{app_id}/commands"
 
 # Creating the custom command
 json = {
